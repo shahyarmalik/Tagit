@@ -1,0 +1,18 @@
+# Doxyfile for TagIt
+# ------------------
+PROJECT_NAME           = "TagIt"
+PROJECT_NUMBER         = 1.0.0
+PROJECT_BRIEF          = "Intelligent Cross-Platform Music Library Manager"
+OUTPUT_DIRECTORY       = doc
+INPUT                  = src
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+GENERATE_LATEX         = NO
+GENERATE_HTML          = YES
+USE_MDFILE_AS_MAINPAGE = README.md
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = YES
+PREDEFINED             = "TAGIT_VERSION=\"1.0.0\""
+
